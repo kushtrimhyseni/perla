@@ -4,10 +4,10 @@ import { HeroBanner } from "./components/intro/HeroBanner";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between">
+    <div className="flex flex-col min-h-screen">
       <Header />
       <HeroBanner />
       <Footer />
-    </main>
+    </div>
   );
 }

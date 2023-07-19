@@ -6,8 +6,10 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <HeroBanner />
-      <Footer />
+      <div className="flex flex-grow flex-col-reverse lg:flex-col">
+        <HeroBanner />
+        <Footer />
+      </div>
     </div>
   );
 }

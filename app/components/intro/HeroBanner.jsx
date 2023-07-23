@@ -7,7 +7,7 @@ export const HeroBanner = () => {
         src={bannerImage}
         width={1920}
         height={420}
-        className="w-full h-[240px] md:h-[530px] md:max-h-[530px]"
+        className="w-full object-cover h-[380px] md:h-[530px] md:max-h-[530px]"
       />
     </div>
   );
